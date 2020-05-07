@@ -18,6 +18,7 @@ def update_deep(path, value):
     keys = path.split('__')
     d = config
     for key in keys[1:-1]:  # remove 'cfngr.' from the start
+        key = key.lower()
         if key not in d:
             d[key] = {}
         if not isinstance(d[key], dict):
