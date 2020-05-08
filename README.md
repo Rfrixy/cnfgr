@@ -39,12 +39,13 @@ private_key3: 'zzzzz'
 ```
 
 Will result in a cnfgr object of:
+```
 {
-private_key1: 'xxxxx',
-private_key2: { "nested_key": "yyyyy"},
-private_key3: 'zzzzz',
+  private_key1: 'xxxxx',
+  private_key2: { "nested_key": "yyyyy"},
+  private_key3: 'zzzzz',
 }
-
+```
 ## Usage
 
 ```
