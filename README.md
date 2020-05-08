@@ -9,8 +9,8 @@ Private variables can be placed in private_config.py (create this file at the ro
 
 Variables can also be injected into the environment and used from there. To add an env variable for cnfgr, use the format:
 
-CNFGR**KEY="value1"
-CNFGR**NESTED\_\_KEY="value2"
+`CNFGR__KEY="value1"`
+`CNFGR__NESTED__KEY="value2"`
 
 ## Precedence
 
