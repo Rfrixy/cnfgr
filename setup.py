@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
     name='cnfgr',
     packages=['cnfgr'],   # Chose the same as "name"
-    version='0.2',
+    version='0.2.2',
     license='MIT',
     description='Configuration management based on python files only.',
     author='Divesh Naidu',

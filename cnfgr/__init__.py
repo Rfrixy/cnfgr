@@ -22,7 +22,6 @@ def update_deep(path, value):
         if key not in d:
             d[key] = {}
         if not isinstance(d[key], dict):
-            print(type(d[key]))
             raise ValueError('Failed to add key: ' + path + ' at: ' + key +
                              ' - Non-dictionary values already present')
         d = d[key]
@@ -40,7 +39,6 @@ def initialize():
     update_config('config')
     update_config_with_env()
     update_config('private_config')
-    print(config)
 
 
 def set(key, value):
